@@ -32,18 +32,17 @@ thiru-dotfiles/
 Clone and run install.sh to symlink configs into your home directory:
 
 ```
-git clone https://github.com/thirunavukkarasu/thiru-dotfiles.git ~/dotfiles
-cd ~/dotfiles
+git clone https://github.com/thirunavukkarasu/thiru-dotfiles.git dotfiles
+cd dotfiles
 bash install.sh
 ```
+To install specific configs, you can use the stow command with the folder name as the only argument.
 
-This will link:
-
-`~/.zshrc` → `dotfiles/zsh/.zshrc`
-
-`~/.zsh_aliases` → `dotfiles/zsh/.zsh_aliases`
-
-and so on…
+To install the zsh configs:
+```
+stow zsh
+``` 
+This will symlink everything in ~/dotfiles/zsh to the correct place in $HOME.
 
 ## 🧩 Plugin Setup
 
