@@ -1,0 +1,7 @@
+# Navigation
+alias zl="zoxide query -l"
+
+# Common shortcuts
+alias zshconfig="code ~/.zshrc"
+alias ohmyzsh="code ~/.oh-my-zsh"
+

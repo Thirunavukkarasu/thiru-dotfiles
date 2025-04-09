@@ -1,0 +1,29 @@
+### PATH Setup ###
+export PATH="/opt/homebrew/bin:/opt/homebrew/sbin:$PATH"
+export PATH="$HOME/.bun/bin:$PATH"
+export M2_HOME="/opt/apache-maven-3.9.6"
+export PATH="$M2_HOME/bin:$PATH"
+export ANDROID_HOME="$HOME/Library/Android/sdk"
+export PATH="$ANDROID_HOME/emulator:$ANDROID_HOME/platform-tools:$PATH"
+export PNPM_HOME="$HOME/Library/pnpm"
+export PATH="$PNPM_HOME:$PATH"
+
+### Python ###
+export PYTHON_VENV_NAME=.venv
+
+### Editor ###
+export EDITOR='code'
+
+### Bun Completions ###
+[ -s "$HOME/.bun/_bun" ] && source "$HOME/.bun/_bun"
+
+### Deno ###
+[ -s "$HOME/.deno/env" ] && source "$HOME/.deno/env"
+
+### Zoxide ###
+eval "$(zoxide init zsh)"
+
+### FZF ###
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+source <(fzf --zsh)
+

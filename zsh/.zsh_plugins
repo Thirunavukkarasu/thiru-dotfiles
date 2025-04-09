@@ -1,0 +1,16 @@
+plugins=(
+  git
+  python
+  z
+  npm
+  node
+  docker
+  kubectl
+  yarn
+  alias-tips
+  fzf-tab
+  zsh-autosuggestions
+  zsh-syntax-highlighting
+  zsh-history-substring-search
+)
+
