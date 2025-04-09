@@ -1,0 +1,7 @@
+alias dev='next dev'
+alias build='next build'
+alias preview='next start'
+
+alias twc='npx tailwindcss -i ./input.css -o ./dist/output.css --watch'
+alias twinit='npx tailwindcss init -p'
+alias twscan='npx tailwindcss --content "./**/*.js,./**/*.ts,./**/*.tsx"'

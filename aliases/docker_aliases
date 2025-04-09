@@ -1,0 +1,7 @@
+alias d='docker'
+alias dc='docker compose'
+alias dcu='docker compose up'
+alias dcd='docker compose down'
+alias dcb='docker compose build'
+alias dcl='docker container ls'
+alias dclean='docker system prune -af'

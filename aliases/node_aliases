@@ -1,0 +1,16 @@
+alias ni='npm install'
+alias nr='npm run'
+alias ns='npm start'
+alias nt='npm test'
+alias nf='npm run format'
+
+alias yi='yarn install'
+alias yr='yarn run'
+alias ys='yarn start'
+
+alias pi='pnpm install'
+alias pr='pnpm run'
+
+alias bi='bun install'
+alias br='bun run'
+alias bs='bun start'
