@@ -15,13 +15,33 @@ dotfiles/
 │   ├── .zsh_plugins       # Plugin list (Oh My Zsh)
 ├── install.sh             # Bootstrap symlink setup
 └── .gitignore             # Excludes secrets, cache, etc.
+
+dotfiles/
+├── aliases/
+│   └── docker_aliases
+│   └── general_aliases
+│   └── next_tailwind_aliases
+│   └── node_aliases
+├── git/
+│   └── .gitconfig
+|   └── .gitignore_global
+├── zsh/
+│   ├── .zshrc        # Main Zsh config
+│   ├── .zsh_aliases  # Custom aliases
+│   ├── .zsh_exports  # Env vars and PATHs
+│   ├── .zsh_plugins  # Plugin list (Oh My Zsh)
+├── install.sh
+├── brew.sh
+├── node.sh
+├── symlinks.sh
+├── .gitignore
 ```
 
 ## 🚀 Installation
 Clone and run install.sh to symlink configs into your home directory:
 
 ```
-git clone https://github.com/<your-username>/dotfiles.git ~/dotfiles
+git clone https://github.com/thirunavukkarasu/thiru-dotfiles.git ~/dotfiles
 cd ~/dotfiles
 bash install.sh
 ```
