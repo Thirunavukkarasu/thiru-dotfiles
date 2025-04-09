@@ -7,16 +7,7 @@ My personal configuration files for Zsh and other development tools.
 ## 📂 Structure
 
 ```
-dotfiles/
-├── zsh/
-│   ├── .zshrc             # Main Zsh config
-│   ├── .zsh_aliases       # Custom aliases
-│   ├── .zsh_exports       # Env vars and PATHs
-│   ├── .zsh_plugins       # Plugin list (Oh My Zsh)
-├── install.sh             # Bootstrap symlink setup
-└── .gitignore             # Excludes secrets, cache, etc.
-
-dotfiles/
+thiru-dotfiles/
 ├── aliases/
 │   └── docker_aliases
 │   └── general_aliases
